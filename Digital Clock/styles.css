@@ -1,0 +1,27 @@
+body{
+    background-image: url('naruto.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+}
+
+#clockContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blue(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+
+}
